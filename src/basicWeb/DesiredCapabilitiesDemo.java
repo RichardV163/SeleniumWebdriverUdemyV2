@@ -19,7 +19,7 @@ public class DesiredCapabilitiesDemo{
 		caps.setBrowserName("firefox");
 		caps.setPlatform(Platform.WIN8_1);
 		
-		driver = new FirefoxDriver(caps);
+		driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.get(baseURL);
 						
